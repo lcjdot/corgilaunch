@@ -9,7 +9,7 @@
 
 module.exports = (robot) ->
   
-  robot.respond /corgi please, (msg) ->
+  robot.respond /corgi me/i, (msg) ->
     msg.http("https://www.instagram.com/corgi_nation/?hl=en")
       .get() (err, res, body) ->
         msg.send JSON.parse(body).corgi
