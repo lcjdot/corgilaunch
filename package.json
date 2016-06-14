@@ -1,0 +1,17 @@
+{
+  "name": "hubot-corgilaunch",
+  "version": "0.0.1",
+  "author": "Laura Wynn (lwynn@searchdex.com",
+  "description": "Corgi Launch for Hubot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lcjdot/corgilaunch.git"
+  },
+  "keywords": [
+    "hubot",
+    "corgi",
+    "photo"
+  ],
+  "license": "MIT",
+  "main": "src/hubot-corgilaunch"
+}
