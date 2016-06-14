@@ -17,8 +17,8 @@
 # Author:
 #   Laura Wynn (lwynn@serachdex.com)
 
-images = require '../src/data/images.json'
-jargon = require '../src/data/triggers.json'
+images = require './data/images.json'
+jargon = require './data/triggers.json'
 
 removeTerm = (term, arrayToDeleteFrom) ->
   index = arrayToDeleteFrom.indexOf term
