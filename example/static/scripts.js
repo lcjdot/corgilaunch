@@ -1,4 +1,5 @@
-// load images ajaxily and add to dom
+//Huge shout out and appreciation to Morgan Wigmanich okize for the code to help me do my first hubot script
+// load images using ajax and add to dom
 $.getJSON('images.json', function (images) {
   var imageList = '';
   $('#header').append(images.length + ' images')
@@ -8,7 +9,7 @@ $.getJSON('images.json', function (images) {
   $('#image-list').append(imageList);
 });
 
-// load triggers ajaxily and check text for trigger words
+// load triggers using ajax and check text for trigger words
 $.getJSON('triggers.json', function (triggers) {
 
   var checktext = function (str) {
